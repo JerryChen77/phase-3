@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <properties resource="jdbc.properties"></properties>
+
+    <settings>
+        <setting name="lazyLoadingEnabled" value="true"/>
+    </settings>
+
+    <typeAliases>
+        <!--<typeAlias type="com.shine.entity.User" alias="User"></typeAlias>
+        <package name="com.shine.entity"/>-->
+    </typeAliases>
+
+    <plugins>
+        <!-- com.github.pagehelper为PageHelper类所在包名 -->
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!-- 使用下面的方式配置参数，后面会有所有的参数介绍 -->
+            <!--
+                  helperDialect：分页插件会自动检测当前的数据库链接，自动选择合适的分页方式。
+                  你可以配置helperDialect属性来指定分页插件使用哪种方言。
+                  -->
+            <property name="helperDialect" value="mysql"/>
+            <!--
+                   分页合理化参数，默认值为false。
+                   当该参数设置为 true 时，pageNum<=0 时会查询第一页， pageNum>pages（超过总数时），会查询最后一页。
+                   默认false 时，直接根据参数进行查询。
+                  -->
+            <property name="reasonable" value="true"/>
+        </plugin>
+    </plugins>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--    注册    -->
+        <mapper resource="com/shine/dao/UserMapper.xml"/>
+        <mapper resource="com/shine/dao/PassportMapper.xml"></mapper>
+        <mapper resource="com/shine/dao/DepartmentMapper.xml"></mapper>
+        <mapper resource="com/shine/dao/StudentMapper.xml"></mapper>
+            <!--    class注册    -->
+<!--        <mapper class="com.shine.dao.UserMapper"></mapper>-->
+        <!--    批量注册    -->
+<!--        <package name="com.shine.dao"/>-->
+    </mappers>
+</configuration>

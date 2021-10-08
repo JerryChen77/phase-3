@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shine.dao.StudentMapper">
+
+    <!--  查询学生对象映射  -->
+    <resultMap id="StuRetMap" type="com.shine.entity.Student">
+        <id column="id" property="id"></id>
+        <result column="name" property="name"></result>
+        <result column="sex" property="sex"></result>
+
+        <collection property="subjects" ofType="com.shine.entity.Subject">
+            <id column="sub_id" property="id"></id>
+            <result column="sub_name" property="name"></result>
+            <result column="grade" property="grade"></result>
+        </collection>
+    </resultMap>
+
+    <!--  Student findStuWithSubById(int id);  -->
+    <select id="findStuWithSubById" resultMap="StuRetMap">
+        SELECT
+            s1.id,
+            s1.name,
+            s1.sex,
+            s2.id sub_id,
+            s2.name sub_name,
+            s2.grade
+        FROM
+            student s1
+            LEFT JOIN stu_sub ss ON s1.id = ss.student_id
+            LEFT JOIN SUBJECT s2 ON ss.subject_id = s2.id
+        WHERE
+            s1.id = #{id}
+    </select>
+</mapper>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shine.dao.UserMapper">
+
+    <!--   User findUserById(int id); -->
+    <select id="findUserById" resultType="com.shine.entity.User">
+        select * from user where id = #{id}
+    </select>
+
+    <!--   User findUserById2(int id);  -->
+    <select id="findUserById2" resultType="com.shine.entity.User">
+        select * from user where id = #{id}
+    </select>
+
+    <!--   User findUserById3(int id);  -->
+    <select id="findUserById3" resultType="com.shine.entity.User">
+        select id,username,password,register_time as registerTime from user where id = #{id}
+    </select>
+    <!--
+        id  这个resultMap的唯一标记，select中通过resultMap属性管理
+        type    这个resultMap得到的结果类型
+    -->
+    <resultMap id="GetUserInfo4" type="com.shine.entity.User">
+
+        <!--
+            id          数据库中的主键
+            column      数据库中的主键名称
+            property    对象中的属性名
+        -->
+        <result column="register_time" property="registerTime"></result>
+
+    </resultMap>
+
+    <resultMap id="GetUserInfo04" type="com.shine.entity.User" extends="GetUserInfo4">
+
+    </resultMap>
+
+    <!--   User findUserById4(int id);  -->
+    <select id="findUserById4" resultMap="GetUserInfo04">
+        select * from user where id = #{id}
+    </select>
+
+    <!--   List<User> findAllUser();  -->
+    <select id="findAllUser" resultType="com.shine.entity.User">
+        select * from user
+    </select>
+</mapper>

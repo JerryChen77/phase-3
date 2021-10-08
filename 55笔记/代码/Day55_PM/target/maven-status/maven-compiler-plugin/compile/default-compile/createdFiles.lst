@@ -1,0 +1,12 @@
+com\shine\entity\Passenger.class
+com\shine\entity\Student.class
+com\shine\dao\StudentMapper.class
+com\shine\dao\DepartmentMapper.class
+com\shine\entity\Employee.class
+com\shine\entity\Subject.class
+com\shine\entity\Passport.class
+com\shine\entity\User.class
+com\shine\entity\Department.class
+com\shine\dao\UserMapper.class
+com\shine\utils\MyBatisUtils.class
+com\shine\dao\PassportMapper.class
