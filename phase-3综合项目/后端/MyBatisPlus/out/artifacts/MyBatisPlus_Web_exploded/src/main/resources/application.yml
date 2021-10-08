@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: mybatis-plus-springboot
+  #数据库信息
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mybatisplus?useSSL=false&serverTimezone=UTC&characterEncoding=utf-8&useUnicode=true
+    username: root
+    password: 7901
+    type: com.alibaba.druid.pool.DruidDataSource
+
+
+#mybatis-plus
+
+
+#日志配置
+logging:
+  level:
+    com.qf.mybatisplus.springboot.mapper: debug

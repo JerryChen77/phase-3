@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.mybatisplus.mapper.ISiteMapper">
+
+<!--	查询功能：site表与device表联查，多个模糊查询字段	-->
+        <select id="search" resultType="com.mybatis.mybatisplus.pojo.Site">
+                SELECT
+	                s.site_id,
+	                s.site_name,
+	                s.user_id,
+	                d.device_id,
+	                d.device_name,
+	                d.device_status,
+	                d.device_type
+                FROM
+                	`tb_site` s
+                	LEFT JOIN tb_device d ON S.site_id = d.site_id
+                WHERE
+                	s.site_name LIKE CONCAT('%',#{name},'%')
+                OR d.device_name LIKE CONCAT('%',#{name},'%')
+                OR d.device_type LIKE CONCAT('%',#{name},'%')
+        </select>
+
+
+        </mapper>
