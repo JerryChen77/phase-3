@@ -1,0 +1,6 @@
+com\qf\mybatisplus\springboot\mybaitsconfig\MyMybatisPlusConfig.class
+com\qf\mybatisplus\springboot\pojo\User.class
+com\qf\mybatisplus\springboot\service\impl\UserServiceImpl.class
+com\qf\mybatisplus\springboot\MybatisPlusSpringbootApplication.class
+com\qf\mybatisplus\springboot\service\UserService.class
+com\qf\mybatisplus\springboot\mapper\IUserMapper.class
