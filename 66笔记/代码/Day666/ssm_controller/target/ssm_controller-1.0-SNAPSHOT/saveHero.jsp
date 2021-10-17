@@ -1,0 +1,59 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: Dushine2008
+  Date: 2021/7/19
+  Time: 10:49
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+        <title>Save Hero</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+        <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 style="text-align: center">添加英雄</h1>
+            <form class="form-horizontal" action="${pageContext.request.contextPath}/hero/saveHero" method="post">
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">姓名</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" name="name" placeholder="请输入姓名">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">武力值</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" name="forceValue" placeholder="武力值">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">地址</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" name="addr" placeholder="地址">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">信息</label>
+                    <div class="col-sm-4">
+                        <input type="text" class="form-control" name="info" placeholder="描述信息">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-4 col-sm-4">
+                        <button type="submit" class="btn btn-primary">添加</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

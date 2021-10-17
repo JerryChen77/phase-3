@@ -1,0 +1,559 @@
+2021-07-07 09:53:15,213 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1b40d5f0
+2021-07-07 09:53:15,520 DEBUG XmlBeanDefinitionReader:391 - Loaded 1 bean definitions from class path resource [applicationContext01.xml]
+2021-07-07 09:53:15,574 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'student'
+2021-07-07 10:10:10,764 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c5a99da
+2021-07-07 10:10:11,047 DEBUG XmlBeanDefinitionReader:391 - Loaded 3 bean definitions from class path resource [applicationContext02.xml]
+2021-07-07 10:10:11,078 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2021-07-07 10:10:11,139 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2021-07-07 10:10:11,139 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2021-07-07 10:10:11,140 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2021-07-07 10:10:11,140 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2021-07-07 10:10:11,146 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'stuDao'
+2021-07-07 10:10:11,146 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 10:10:11,376  INFO DruidDataSource:930 - {dataSource-1} inited
+2021-07-07 10:11:11,625 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c5a99da
+2021-07-07 10:11:11,893 DEBUG XmlBeanDefinitionReader:391 - Loaded 3 bean definitions from class path resource [applicationContext02.xml]
+2021-07-07 10:11:11,936 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2021-07-07 10:11:11,992 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2021-07-07 10:11:11,992 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2021-07-07 10:11:11,993 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2021-07-07 10:11:11,993 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2021-07-07 10:11:12,002 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'stuDao'
+2021-07-07 10:11:12,003 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 10:11:12,213  INFO DruidDataSource:930 - {dataSource-1} inited
+2021-07-07 10:54:03,659 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c5a99da
+2021-07-07 10:54:03,848 DEBUG XmlBeanDefinitionReader:391 - Loaded 3 bean definitions from class path resource [applicationContext02.xml]
+2021-07-07 10:54:03,879 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2021-07-07 10:54:03,921 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2021-07-07 10:54:03,921 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2021-07-07 10:54:03,921 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2021-07-07 10:54:03,922 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2021-07-07 10:54:03,927 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'stuDao'
+2021-07-07 10:54:03,927 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 10:54:04,208  INFO DruidDataSource:930 - {dataSource-1} inited
+2021-07-07 10:56:06,098 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3c5a99da
+2021-07-07 10:56:06,331 DEBUG XmlBeanDefinitionReader:391 - Loaded 3 bean definitions from class path resource [applicationContext02.xml]
+2021-07-07 10:56:06,361 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2021-07-07 10:56:06,407 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2021-07-07 10:56:06,407 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2021-07-07 10:56:06,407 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2021-07-07 10:56:06,408 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2021-07-07 10:56:06,412 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'stuDao'
+2021-07-07 10:56:06,413 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 10:56:06,487 DEBUG ClassPathXmlApplicationContext:1005 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@3c5a99da, started on Wed Jul 07 10:56:06 CST 2021
+2021-07-07 11:13:51,192 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 11:13:51,349 DEBUG XmlBeanDefinitionReader:391 - Loaded 1 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 11:13:51,388 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 11:13:51,659 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-07-07 11:13:51,707 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-07 11:13:51,707 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-07 11:13:51,708 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-07 11:13:51,708 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-07 11:14:57,193 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 11:14:57,346 DEBUG XmlBeanDefinitionReader:391 - Loaded 1 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 11:14:57,384 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 11:14:57,560 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-07-07 11:14:57,592 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-07 11:14:57,593 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-07 11:14:57,593 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-07 11:14:57,593 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-07 11:26:36,068 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 11:26:36,232 DEBUG XmlBeanDefinitionReader:391 - Loaded 1 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 11:26:36,274 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 11:28:50,966 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 11:28:51,222 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 11:28:51,266 DEBUG XmlBeanDefinitionReader:391 - Loaded 7 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 11:28:51,285 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 11:28:51,316 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 11:28:51,317 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 11:28:51,318 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 11:28:51,320 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 11:28:51,328 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 11:28:51,334 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 11:29:05,275 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 11:29:05,534 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 11:29:05,569 DEBUG XmlBeanDefinitionReader:391 - Loaded 7 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 11:29:05,596 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 11:29:05,625 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 11:29:05,627 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 11:29:05,628 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 11:29:05,629 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 11:29:05,637 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 11:29:05,647 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 11:30:32,091 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 11:30:32,340 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 11:30:32,369 DEBUG XmlBeanDefinitionReader:391 - Loaded 7 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 11:30:32,403 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 11:30:32,442 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 11:30:32,446 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 11:30:32,449 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 11:30:32,452 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 11:30:32,463 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user000'
+2021-07-07 11:30:32,470 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 11:30:43,437 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 11:30:43,680 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 11:30:43,705 DEBUG XmlBeanDefinitionReader:391 - Loaded 7 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 11:30:43,725 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 11:30:43,766 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 11:30:43,768 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 11:30:43,771 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 11:30:43,774 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 11:30:43,785 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user000'
+2021-07-07 11:30:43,795 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 14:14:56,828 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:14:57,145 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:14:57,196 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:14:57,212 DEBUG XmlBeanDefinitionReader:391 - Loaded 8 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:14:57,244 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:14:57,292 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:14:57,295 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:14:57,297 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:14:57,300 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:14:57,311 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:14:57,318 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:14:57,319 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 14:15:16,101 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:15:16,348 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:15:16,372 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:15:16,384 DEBUG XmlBeanDefinitionReader:391 - Loaded 8 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:15:16,409 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:15:16,445 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:15:16,447 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:15:16,448 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:15:16,449 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:15:16,457 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:15:16,463 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:15:16,463 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 14:17:45,389 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:17:45,622 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:17:45,643 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:17:45,653 DEBUG XmlBeanDefinitionReader:391 - Loaded 8 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:17:45,680 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:17:45,716 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:17:45,718 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:17:45,719 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:17:45,720 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:17:45,728 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:17:45,733 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:17:45,733 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 14:18:22,529 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:18:22,777 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:18:22,805 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:18:22,815 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 14:18:22,826 DEBUG XmlBeanDefinitionReader:391 - Loaded 9 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:18:22,848 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:18:22,886 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:18:22,888 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:18:22,890 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:18:22,892 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:18:22,901 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:18:22,906 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:18:22,907 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 14:18:22,907 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 14:19:49,751 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:19:49,994 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:19:50,021 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:19:50,025 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 14:19:50,037 DEBUG XmlBeanDefinitionReader:391 - Loaded 9 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:19:50,064 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:19:50,117 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:19:50,120 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:19:50,123 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:19:50,126 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:19:50,139 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:19:50,148 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:19:50,149 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 14:19:50,150 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 14:20:07,254 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:20:07,503 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:20:07,529 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:20:07,538 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 14:20:07,547 DEBUG XmlBeanDefinitionReader:391 - Loaded 9 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:20:07,569 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:20:07,606 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:20:07,607 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:20:07,609 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:20:07,610 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:20:07,617 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:20:07,622 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:20:07,622 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userService'
+2021-07-07 14:20:07,623 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 14:22:20,686 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:22:20,908 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:22:20,932 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:22:20,936 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 14:22:20,947 DEBUG XmlBeanDefinitionReader:391 - Loaded 9 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:22:20,972 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:22:21,014 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:22:21,016 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:22:21,018 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:22:21,020 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:22:21,028 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:22:21,034 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:22:21,035 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 14:22:21,036 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 14:28:08,196 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:28:08,433 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:28:08,469 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:28:08,474 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 14:28:08,491 DEBUG XmlBeanDefinitionReader:391 - Loaded 9 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:28:08,517 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:28:08,561 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:28:08,562 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:28:08,564 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:28:08,566 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:28:08,578 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:28:08,589 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:28:08,591 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 14:28:08,592 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 14:28:08,594 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dateSource'
+2021-07-07 14:29:01,751 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:29:01,995 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:29:02,025 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:29:02,027 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 14:29:02,037 DEBUG XmlBeanDefinitionReader:391 - Loaded 9 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:29:02,056 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:29:02,103 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:29:02,105 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:29:02,107 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:29:02,108 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:29:02,114 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:29:02,120 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:29:02,121 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 14:29:02,122 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 14:29:02,123 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 14:29:31,255 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:29:31,492 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:29:31,522 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:29:31,524 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 14:29:31,535 DEBUG XmlBeanDefinitionReader:391 - Loaded 9 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:29:31,555 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:29:31,597 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:29:31,599 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:29:31,601 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:29:31,603 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:29:31,611 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:29:31,617 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:29:31,619 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 14:29:31,619 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 14:29:31,620 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 14:29:31,811  INFO DruidDataSource:930 - {dataSource-1} inited
+2021-07-07 14:30:09,359 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:30:09,585 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:30:09,618 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:30:09,621 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 14:30:09,631 DEBUG XmlBeanDefinitionReader:391 - Loaded 9 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:30:09,656 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:30:09,708 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:30:09,710 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:30:09,712 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:30:09,713 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:30:09,721 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:30:09,727 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:30:09,729 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 14:30:09,730 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 14:30:09,731 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'getDataSource00'
+2021-07-07 14:38:36,306 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:38:36,556 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:38:36,590 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:38:36,594 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 14:38:36,605 DEBUG XmlBeanDefinitionReader:391 - Loaded 9 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:38:36,625 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:38:36,680 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:38:36,683 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:38:36,684 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:38:36,686 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:38:36,694 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:38:36,701 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:38:36,704 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 14:38:36,704 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 14:38:36,705 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 14:40:02,985 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:40:03,258 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:40:03,288 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:40:03,291 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 14:40:03,306 DEBUG XmlBeanDefinitionReader:391 - Loaded 9 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:40:03,329 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:40:03,380 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:40:03,382 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:40:03,383 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:40:03,385 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:40:03,394 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:40:03,418 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:40:03,419 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 14:40:03,420 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 14:40:03,421 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 14:49:17,363 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:49:17,630 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:49:17,661 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:49:17,671 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 14:49:17,688 DEBUG XmlBeanDefinitionReader:391 - Loaded 9 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:49:17,713 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:49:17,764 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:49:17,766 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:49:17,768 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:49:17,770 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:49:17,781 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:49:17,819 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:49:17,821 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 14:49:17,830 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 14:49:17,832 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 14:50:20,032 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:50:20,271 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:50:20,309 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:50:20,321 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 14:50:20,337 DEBUG XmlBeanDefinitionReader:391 - Loaded 9 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:50:20,359 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:50:20,411 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:50:20,412 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:50:20,414 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:50:20,415 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:50:20,422 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:50:20,443 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:50:20,444 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 14:50:20,447 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 14:50:20,449 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 14:50:38,054 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:50:38,260 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:50:38,288 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:50:38,302 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 14:50:38,312 DEBUG XmlBeanDefinitionReader:391 - Loaded 9 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:50:38,333 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:50:38,373 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:50:38,375 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:50:38,379 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:50:38,381 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:50:38,393 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:50:38,415 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:50:38,416 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 14:50:38,421  WARN ClassPathXmlApplicationContext:558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userServiceImpl': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'userDao' available
+2021-07-07 14:52:21,759 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:52:22,002 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:52:22,028 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:52:22,040 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 14:52:22,050 DEBUG XmlBeanDefinitionReader:391 - Loaded 9 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:52:22,070 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:52:22,118 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:52:22,121 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:52:22,122 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:52:22,123 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:52:22,131 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:52:22,158 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:52:22,160 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 14:52:22,168 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 14:52:22,169 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 14:53:34,621 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:53:34,887 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:53:34,924 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:53:34,931 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl2.class]
+2021-07-07 14:53:34,943 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 14:53:34,957 DEBUG XmlBeanDefinitionReader:391 - Loaded 10 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:53:34,993 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:53:35,041 DEBUG DefaultListableBeanFactory:942 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=userDaoImpl; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in com.shine.dao.impl.impl.UserDaoImpl] with [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=userDaoImpl2; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in com.shine.dao.impl.impl.UserDaoImpl2]
+2021-07-07 14:53:35,052 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:53:35,054 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:53:35,057 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:53:35,058 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:53:35,067 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:53:35,102 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:53:35,107 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl2'
+2021-07-07 14:53:35,109 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 14:53:35,122  WARN ClassPathXmlApplicationContext:558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through field 'userDao'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.shine.dao.UserDao' available: expected single matching bean but found 2: userDaoImpl,userDaoImpl2
+2021-07-07 14:54:52,241 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 14:54:52,451 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 14:54:52,473 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 14:54:52,484 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl2.class]
+2021-07-07 14:54:52,499 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 14:54:52,511 DEBUG XmlBeanDefinitionReader:391 - Loaded 10 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 14:54:52,538 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 14:54:52,577 DEBUG DefaultListableBeanFactory:942 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=userDaoImpl; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in com.shine.dao.impl.impl.UserDaoImpl] with [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=userDaoImpl2; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in com.shine.dao.impl.impl.UserDaoImpl2]
+2021-07-07 14:54:52,587 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 14:54:52,589 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 14:54:52,591 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 14:54:52,593 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 14:54:52,603 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 14:54:52,632 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 14:54:52,634 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl2'
+2021-07-07 14:54:52,636 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 14:54:52,650 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 14:54:52,651 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 15:18:50,851 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 15:18:51,094 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 15:18:51,116 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 15:18:51,117 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl2.class]
+2021-07-07 15:18:51,120 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 15:18:51,131 DEBUG XmlBeanDefinitionReader:391 - Loaded 10 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 15:18:51,169 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 15:18:51,215 DEBUG DefaultListableBeanFactory:942 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=userDaoImpl; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in com.shine.dao.impl.impl.UserDaoImpl] with [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=userDaoImpl2; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in com.shine.dao.impl.impl.UserDaoImpl2]
+2021-07-07 15:18:51,223 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 15:18:51,225 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 15:18:51,227 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 15:18:51,229 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 15:18:51,239 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 15:18:51,273 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 15:18:51,275 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl2'
+2021-07-07 15:18:51,276 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 15:18:51,292 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 15:18:51,293 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 15:19:34,673 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 15:19:34,953 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 15:19:34,985 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 15:19:34,985 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl2.class]
+2021-07-07 15:19:34,991 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 15:19:35,004 DEBUG XmlBeanDefinitionReader:391 - Loaded 10 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 15:19:35,025 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 15:19:35,065 DEBUG DefaultListableBeanFactory:942 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=userDaoImpl; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in com.shine.dao.impl.impl.UserDaoImpl] with [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=userDaoImpl2; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in com.shine.dao.impl.impl.UserDaoImpl2]
+2021-07-07 15:19:35,071 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 15:19:35,073 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 15:19:35,074 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 15:19:35,076 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 15:19:35,083 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 15:19:35,112 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 15:19:35,113 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl2'
+2021-07-07 15:19:35,115 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 15:19:35,129 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 15:19:35,129 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 15:20:06,019 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa
+2021-07-07 15:20:06,244 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 15:20:06,277 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 15:20:06,277 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl2.class]
+2021-07-07 15:20:06,281 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 15:20:06,291 DEBUG XmlBeanDefinitionReader:391 - Loaded 10 bean definitions from class path resource [applicationContext03.xml]
+2021-07-07 15:20:06,317 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 15:20:06,357 DEBUG DefaultListableBeanFactory:942 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=userDaoImpl; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in com.shine.dao.impl.impl.UserDaoImpl] with [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=userDaoImpl2; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in com.shine.dao.impl.impl.UserDaoImpl2]
+2021-07-07 15:20:06,365 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 15:20:06,367 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 15:20:06,369 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 15:20:06,370 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 15:20:06,382 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 15:20:06,409 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 15:20:06,412 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl2'
+2021-07-07 15:20:06,413 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 15:20:06,423 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'session'
+2021-07-07 15:20:06,424 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 15:20:06,504 DEBUG ClassPathXmlApplicationContext:1005 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@5a01ccaa, started on Wed Jul 07 15:20:06 CST 2021
+2021-07-07 15:29:43,210 DEBUG AnnotationConfigApplicationContext:595 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4ec6a292
+2021-07-07 15:29:43,224 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 15:29:43,302 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 15:29:43,303 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl2.class]
+2021-07-07 15:29:43,312 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 15:29:43,318 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 15:29:43,327 DEBUG DefaultListableBeanFactory:942 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=userDaoImpl; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/shine/dao/impl/impl/UserDaoImpl.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=userDaoImpl2; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/shine/dao/impl/impl/UserDaoImpl2.class]]
+2021-07-07 15:29:43,413 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 15:29:43,416 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 15:29:43,417 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 15:29:43,419 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 15:29:43,428 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'springConfig'
+2021-07-07 15:29:43,433 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 15:29:43,443 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl2'
+2021-07-07 15:29:43,446 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 15:29:43,465 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 15:29:43,481 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 15:31:59,673 DEBUG AnnotationConfigApplicationContext:595 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4ec6a292
+2021-07-07 15:31:59,688 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 15:31:59,754 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 15:31:59,755 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl2.class]
+2021-07-07 15:31:59,768 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 15:31:59,775 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 15:31:59,784 DEBUG DefaultListableBeanFactory:942 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=userDaoImpl2; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/shine/dao/impl/impl/UserDaoImpl2.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=springConfig; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in com.shine.config.SpringConfig]
+2021-07-07 15:31:59,855 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 15:31:59,858 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 15:31:59,861 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 15:31:59,864 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 15:31:59,874 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'springConfig'
+2021-07-07 15:31:59,887 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 15:31:59,887 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl2'
+2021-07-07 15:31:59,889 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 15:31:59,901 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 15:31:59,913 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 15:36:09,223 DEBUG AnnotationConfigApplicationContext:595 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4ec6a292
+2021-07-07 15:36:09,242 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 15:36:09,319 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 15:36:09,320 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl2.class]
+2021-07-07 15:36:09,329 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 15:36:09,334 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 15:36:09,347 DEBUG DefaultListableBeanFactory:942 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=userDaoImpl2; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/shine/dao/impl/impl/UserDaoImpl2.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=springConfig; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in com.shine.config.SpringConfig]
+2021-07-07 15:36:09,420 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 15:36:09,422 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 15:36:09,424 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 15:36:09,425 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 15:36:09,434 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'springConfig'
+2021-07-07 15:36:09,446 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2021-07-07 15:36:09,449 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2021-07-07 15:36:09,450 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2021-07-07 15:36:09,450 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2021-07-07 15:36:09,452 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 15:36:09,453 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl2'
+2021-07-07 15:36:09,457 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 15:36:09,474 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 15:36:09,487 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 15:36:31,947 DEBUG AnnotationConfigApplicationContext:595 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4ec6a292
+2021-07-07 15:36:31,966 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 15:36:32,040 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 15:36:32,041 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl2.class]
+2021-07-07 15:36:32,049 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 15:36:32,056 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 15:36:32,081 DEBUG DefaultListableBeanFactory:942 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=userDaoImpl2; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/shine/dao/impl/impl/UserDaoImpl2.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=springConfig; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in com.shine.config.SpringConfig]
+2021-07-07 15:36:32,150 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 15:36:32,152 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 15:36:32,155 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 15:36:32,159 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 15:36:32,173 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'springConfig'
+2021-07-07 15:36:32,185 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2021-07-07 15:36:32,187 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2021-07-07 15:36:32,188 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2021-07-07 15:36:32,188 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2021-07-07 15:36:32,190 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 15:36:32,190 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl2'
+2021-07-07 15:36:32,192 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 15:36:32,202 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 15:36:32,213 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 15:36:32,403  INFO DruidDataSource:930 - {dataSource-1} inited
+2021-07-07 15:38:18,826 DEBUG AnnotationConfigApplicationContext:595 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4ec6a292
+2021-07-07 15:38:18,842 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 15:38:18,920 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\config\SourceConfig.class]
+2021-07-07 15:38:18,929 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 15:38:18,930 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl2.class]
+2021-07-07 15:38:18,938 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 15:38:18,943 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 15:38:18,960 DEBUG DefaultListableBeanFactory:942 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=userDaoImpl2; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/shine/dao/impl/impl/UserDaoImpl2.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=sourceConfig; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in com.shine.config.SourceConfig]
+2021-07-07 15:38:19,043 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 15:38:19,046 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 15:38:19,049 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 15:38:19,050 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 15:38:19,064 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'springConfig'
+2021-07-07 15:38:19,073 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sourceConfig'
+2021-07-07 15:38:19,081 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2021-07-07 15:38:19,084 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2021-07-07 15:38:19,086 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2021-07-07 15:38:19,087 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2021-07-07 15:38:19,088 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 15:38:19,089 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl2'
+2021-07-07 15:38:19,090 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 15:38:19,104 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 15:38:19,113 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 15:38:19,309  INFO DruidDataSource:930 - {dataSource-1} inited
+2021-07-07 15:39:25,883 DEBUG AnnotationConfigApplicationContext:595 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4ec6a292
+2021-07-07 15:39:25,902 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-07 15:39:25,986 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\config\SourceConfig.class]
+2021-07-07 15:39:26,000 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl.class]
+2021-07-07 15:39:26,001 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\dao\impl\impl\UserDaoImpl2.class]
+2021-07-07 15:39:26,007 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\entity\User.class]
+2021-07-07 15:39:26,014 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day58\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-07 15:39:26,027 DEBUG DefaultListableBeanFactory:942 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=sourceConfig; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/shine/config/SourceConfig.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=userDaoImpl2; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/shine/dao/impl/impl/UserDaoImpl2.class]]
+2021-07-07 15:39:26,134 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-07 15:39:26,137 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-07 15:39:26,138 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-07 15:39:26,141 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-07 15:39:26,152 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'springConfig'
+2021-07-07 15:39:26,162 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sourceConfig'
+2021-07-07 15:39:26,175 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2021-07-07 15:39:26,178 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driver' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2021-07-07 15:39:26,181 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2021-07-07 15:39:26,182 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'class path resource [jdbc.properties]' with value of type String
+2021-07-07 15:39:26,182 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl'
+2021-07-07 15:39:26,183 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDaoImpl2'
+2021-07-07 15:39:26,185 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-07 15:39:26,200 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-07 15:39:26,212 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-07 15:39:26,370  INFO DruidDataSource:930 - {dataSource-1} inited

@@ -1,0 +1,3 @@
+com\shine\mapper\UserMapper.class
+com\shine\entity\User.class
+com\shine\utils\MyBatisUtils.class

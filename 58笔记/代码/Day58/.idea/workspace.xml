@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="67b7695f-45dc-4408-8eba-69a042d611c1" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/config/SpringConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/config/SourceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/config/Test1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/proxystatic/ZuFang.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/proxystatic/FangDong.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/proxystatic/ZhongJie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/shine/TestStaticProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/shine/TestConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/shine/entity/Student.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shine/TestStudent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shine/entity/Stu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shine/dao/StuDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shine/dao/impl/StuDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext02.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext01.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shine/TestStu.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shine/factory/SessionFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shine/TestSessionFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shine/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shine/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext03.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shine/dao/impl/impl/StuDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shine/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shine/dao/impl/impl/UserDaoImpl2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shine/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shine/TestUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shine/dao/impl/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shine/config/SourceConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shine/TestConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shine/config/SpringConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shine/proxystatic/ZuFang.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shine/proxystatic/FangDong.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shine/proxystatic/ZhongJie.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/shine/TestStaticProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/shine/config/Test1.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\work\maven\myrepository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\work\maven\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="561" />
+    <option name="y" value="70" />
+    <option name="width" value="1249" />
+    <option name="height" value="1058" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Day58" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Day58" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Day58" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Day58" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Day58" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Day58" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Day58" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Day58" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Day58" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Day58" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Day58" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Day58" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Day58" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Day58" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shine" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Day58" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Day58" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shine" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Day58" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Day58" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shine.dao.impl.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\code\Java2103\Day58\src\main\resources" />
+      <recent name="D:\work\code\Java2103\Day58\src\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestStaticProxy.testZu">
+    <configuration name="TestConfig.getUser01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Day58" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shine" />
+      <option name="MAIN_CLASS_NAME" value="com.shine.TestConfig" />
+      <option name="METHOD_NAME" value="getUser01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConfig.getUser02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Day58" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shine" />
+      <option name="MAIN_CLASS_NAME" value="com.shine.TestConfig" />
+      <option name="METHOD_NAME" value="getUser02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConfig.getUser03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Day58" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shine" />
+      <option name="MAIN_CLASS_NAME" value="com.shine.TestConfig" />
+      <option name="METHOD_NAME" value="getUser03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestConfig.getUser04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Day58" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shine" />
+      <option name="MAIN_CLASS_NAME" value="com.shine.TestConfig" />
+      <option name="METHOD_NAME" value="getUser04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStaticProxy.testZu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Day58" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shine" />
+      <option name="MAIN_CLASS_NAME" value="com.shine.TestStaticProxy" />
+      <option name="METHOD_NAME" value="testZu" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestStaticProxy.testZu" />
+        <item itemvalue="JUnit.TestConfig.getUser04" />
+        <item itemvalue="JUnit.TestConfig.getUser03" />
+        <item itemvalue="JUnit.TestConfig.getUser02" />
+        <item itemvalue="JUnit.TestConfig.getUser01" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67b7695f-45dc-4408-8eba-69a042d611c1" name="Default Changelist" comment="" />
+      <created>1625621555804</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625621555804</updated>
+      <workItem from="1625621559565" duration="14177000" />
+      <workItem from="1625656628924" duration="1332000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestUser_getUser01 - 2021.07.07 at 15h 18m 51s.xml">
+      <configuration name="TestUser.getUser01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_getUser01 - 2021.07.07 at 15h 19m 35s.xml">
+      <configuration name="TestUser.getUser01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_getUser01 - 2021.07.07 at 15h 20m 07s.xml">
+      <configuration name="TestUser.getUser01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConfig_getUser01 - 2021.07.07 at 15h 29m 44s.xml">
+      <configuration name="TestConfig.getUser01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConfig_getUser02 - 2021.07.07 at 15h 32m 00s.xml">
+      <configuration name="TestConfig.getUser02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConfig_getUser02 - 2021.07.07 at 15h 36m 10s.xml">
+      <configuration name="TestConfig.getUser02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConfig_getUser02 - 2021.07.07 at 15h 36m 33s.xml">
+      <configuration name="TestConfig.getUser02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConfig_getUser03 - 2021.07.07 at 15h 38m 20s.xml">
+      <configuration name="TestConfig.getUser03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestConfig_getUser04 - 2021.07.07 at 15h 39m 27s.xml">
+      <configuration name="TestConfig.getUser04" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestStaticProxy_testZu - 2021.07.07 at 16h 02m 26s.xml">
+      <configuration name="TestStaticProxy.testZu" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15509000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8115942" visible="true" weight="0.22453083" />
+      <window_info id="Structure" order="1" sideWeight="0.1884058" side_tool="true" visible="true" weight="0.22453083" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25723472" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Word Book" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.20948827" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.050268095" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://JAVA/org.springframework.context.support.ClassPathXmlApplicationContext">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.context.support.ClassPathXmlApplicationContext</OriginalElement>
+          <nodes>
+            <node x="579.0" y="90.0">org.springframework.beans.factory.HierarchicalBeanFactory</node>
+            <node x="1803.5" y="0.0">org.springframework.core.io.ResourceLoader</node>
+            <node x="637.5" y="640.0">org.springframework.context.support.AbstractXmlApplicationContext</node>
+            <node x="503.4300000000002" y="370.0">org.springframework.beans.factory.Aware</node>
+            <node x="972.0" y="190.0">org.springframework.context.ApplicationContext</node>
+            <node x="135.0" y="90.0">java.lang.AutoCloseable</node>
+            <node x="655.4300000000002" y="460.0">org.springframework.beans.factory.InitializingBean</node>
+            <node x="0.0" y="190.0">org.springframework.context.Lifecycle</node>
+            <node x="567.5" y="550.0">org.springframework.context.support.AbstractRefreshableConfigApplicationContext</node>
+            <node x="1094.0" y="0.0">java.lang.FunctionalInterface</node>
+            <node x="932.4300000000002" y="370.0">org.springframework.context.support.AbstractApplicationContext</node>
+            <node x="1909.0" y="90.0">org.springframework.core.io.DefaultResourceLoader</node>
+            <node x="503.0" y="0.0">org.springframework.beans.factory.BeanFactory</node>
+            <node x="154.0" y="190.0">java.io.Closeable</node>
+            <node x="327.48" y="280.0">org.springframework.context.ConfigurableApplicationContext</node>
+            <node x="1375.0" y="90.0">org.springframework.core.env.EnvironmentCapable</node>
+            <node x="1063.0" y="90.0">org.springframework.context.ApplicationEventPublisher</node>
+            <node x="631.5" y="730.0">org.springframework.context.support.ClassPathXmlApplicationContext</node>
+            <node x="1617.0" y="90.0">org.springframework.core.io.support.ResourcePatternResolver</node>
+            <node x="463.4300000000002" y="460.0">org.springframework.beans.factory.BeanNameAware</node>
+            <node x="877.4300000000002" y="460.0">org.springframework.context.support.AbstractRefreshableApplicationContext</node>
+            <node x="871.0" y="90.0">org.springframework.context.MessageSource</node>
+            <node x="327.0" y="90.0">org.springframework.beans.factory.ListableBeanFactory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.context.support.AbstractXmlApplicationContext" target="org.springframework.context.support.AbstractRefreshableConfigApplicationContext">
+              <point x="0.0" y="-20.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.env.EnvironmentCapable">
+              <point x="55.5" y="-20.0" />
+              <point x="1138.5" y="160.0" />
+              <point x="1486.0" y="160.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractRefreshableConfigApplicationContext" target="org.springframework.beans.factory.BeanNameAware">
+              <point x="-156.66666666666652" y="-20.0" />
+              <point x="645.8333333333335" y="525.0" />
+              <point x="549.4300000000002" y="525.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.core.io.support.ResourcePatternResolver" target="org.springframework.core.io.ResourceLoader">
+              <point x="0.0" y="-20.0" />
+              <point x="1753.0" y="65.0" />
+              <point x="1849.0" y="65.0" />
+              <point x="-45.5" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractRefreshableConfigApplicationContext" target="org.springframework.context.support.AbstractRefreshableApplicationContext">
+              <point x="156.66666666666652" y="-20.0" />
+              <point x="959.1666666666665" y="525.0" />
+              <point x="1082.4300000000003" y="525.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.beans.factory.HierarchicalBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="0.0" y="-20.0" />
+              <point x="715.0" y="65.0" />
+              <point x="617.0" y="65.0" />
+              <point x="38.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractApplicationContext" target="org.springframework.core.io.DefaultResourceLoader">
+              <point x="75.0" y="-20.0" />
+              <point x="1157.4300000000003" y="345.0" />
+              <point x="2036.0" y="345.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractRefreshableConfigApplicationContext" target="org.springframework.beans.factory.InitializingBean">
+              <point x="0.0" y="-20.0" />
+              <point x="802.5" y="525.0" />
+              <point x="756.4300000000002" y="525.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.beans.factory.ListableBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="0.0" y="-20.0" />
+              <point x="443.0" y="65.0" />
+              <point x="541.0" y="65.0" />
+              <point x="-38.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractRefreshableApplicationContext" target="org.springframework.context.support.AbstractApplicationContext">
+              <point x="0.0" y="-20.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.core.io.DefaultResourceLoader" target="org.springframework.core.io.ResourceLoader">
+              <point x="0.0" y="-20.0" />
+              <point x="2036.0" y="65.0" />
+              <point x="1940.0" y="65.0" />
+              <point x="45.5" y="20.0" />
+            </edge>
+            <edge source="org.springframework.beans.factory.BeanNameAware" target="org.springframework.beans.factory.Aware">
+              <point x="0.0" y="-20.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.ConfigurableApplicationContext" target="org.springframework.context.ApplicationContext">
+              <point x="114.0" y="-20.0" />
+              <point x="612.48" y="260.0" />
+              <point x="1083.0" y="260.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.HierarchicalBeanFactory">
+              <point x="-55.5" y="-20.0" />
+              <point x="1027.5" y="160.0" />
+              <point x="715.0" y="160.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.ConfigurableApplicationContext" target="java.io.Closeable">
+              <point x="0.0" y="-20.0" />
+              <point x="498.48" y="250.0" />
+              <point x="221.0" y="250.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.ApplicationEventPublisher">
+              <point x="18.5" y="-20.0" />
+              <point x="1101.5" y="150.0" />
+              <point x="1209.0" y="150.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+              <point x="0.0" y="-20.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.ListableBeanFactory">
+              <point x="-92.5" y="-20.0" />
+              <point x="990.5" y="170.0" />
+              <point x="443.0" y="170.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.MessageSource">
+              <point x="-18.5" y="-20.0" />
+              <point x="1064.5" y="150.0" />
+              <point x="957.0" y="150.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationEventPublisher" target="java.lang.FunctionalInterface">
+              <point x="0.0" y="-20.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.support.ClassPathXmlApplicationContext" target="org.springframework.context.support.AbstractXmlApplicationContext">
+              <point x="0.0" y="-20.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.io.support.ResourcePatternResolver">
+              <point x="92.5" y="-20.0" />
+              <point x="1175.5" y="170.0" />
+              <point x="1753.0" y="170.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.ConfigurableApplicationContext" target="org.springframework.context.Lifecycle">
+              <point x="-114.0" y="-20.0" />
+              <point x="384.48" y="260.0" />
+              <point x="67.0" y="260.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.support.AbstractApplicationContext" target="org.springframework.context.ConfigurableApplicationContext">
+              <point x="-75.0" y="-20.0" />
+              <point x="1007.4300000000002" y="345.0" />
+              <point x="498.48" y="345.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8692167577413479" x="574.0" y="240.0" />
+          <SelectedNodes>
+            <node>org.springframework.context.ApplicationContext</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext02.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext01.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shine/TestStu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.springframework.context.ApplicationContext">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.springframework.context.ApplicationContext</OriginalElement>
+          <nodes>
+            <node x="440.0" y="90.0">org.springframework.beans.factory.HierarchicalBeanFactory</node>
+            <node x="1052.0" y="0.0">java.lang.FunctionalInterface</node>
+            <node x="775.0" y="0.0">org.springframework.core.io.ResourceLoader</node>
+            <node x="360.74999999999994" y="0.0">org.springframework.beans.factory.BeanFactory</node>
+            <node x="1330.0" y="90.0">org.springframework.core.env.EnvironmentCapable</node>
+            <node x="1020.0" y="90.0">org.springframework.context.ApplicationEventPublisher</node>
+            <node x="730.0" y="90.0">org.springframework.core.io.support.ResourcePatternResolver</node>
+            <node x="610.0" y="190.0">org.springframework.context.ApplicationContext</node>
+            <node x="0.0" y="90.0">org.springframework.context.MessageSource</node>
+            <node x="190.0" y="90.0">org.springframework.beans.factory.ListableBeanFactory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.env.EnvironmentCapable">
+              <point x="91.66666666666663" y="-20.0" />
+              <point x="811.6666666666666" y="170.0" />
+              <point x="1440.0" y="170.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.core.io.support.ResourcePatternResolver" target="org.springframework.core.io.ResourceLoader">
+              <point x="0.0" y="-20.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.HierarchicalBeanFactory">
+              <point x="-18.33333333333337" y="-20.0" />
+              <point x="701.6666666666666" y="150.0" />
+              <point x="575.0" y="150.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.beans.factory.HierarchicalBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="0.0" y="-20.0" />
+              <point x="575.0" y="65.0" />
+              <point x="473.25" y="65.0" />
+              <point x="37.50000000000006" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.ApplicationEventPublisher">
+              <point x="55.0" y="-20.0" />
+              <point x="775.0" y="160.0" />
+              <point x="1165.0" y="160.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.ListableBeanFactory">
+              <point x="-55.0" y="-20.0" />
+              <point x="665.0" y="160.0" />
+              <point x="305.0" y="160.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.MessageSource">
+              <point x="-91.66666666666663" y="-20.0" />
+              <point x="628.3333333333334" y="170.0" />
+              <point x="85.0" y="170.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.beans.factory.ListableBeanFactory" target="org.springframework.beans.factory.BeanFactory">
+              <point x="0.0" y="-20.0" />
+              <point x="305.0" y="65.0" />
+              <point x="398.24999999999994" y="65.0" />
+              <point x="-37.5" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationEventPublisher" target="java.lang.FunctionalInterface">
+              <point x="0.0" y="-20.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.io.support.ResourcePatternResolver">
+              <point x="18.33333333333337" y="-20.0" />
+              <point x="738.3333333333334" y="150.0" />
+              <point x="865.0" y="150.0" />
+              <point x="0.0" y="20.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7221518987341772" x="312.0" y="-3.0" />
+          <SelectedNodes>
+            <node>org.springframework.context.ApplicationContext</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/context/ApplicationContext.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/context/support/FileSystemXmlApplicationContext.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE-sources.jar!/org/springframework/beans/factory/FactoryBean.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/factory/SessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shine/TestSessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/stereotype/Component.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE.jar!/org/springframework/context/config/spring-context.xsd" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/stereotype/Repository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/stereotype/Service.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/context/annotation/Bean.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/context/annotation/ScopedProxyMode.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/context/annotation/Scope.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Value.java" />
+    <entry file="jar://C:/work/workSpace/Java/jdk1.8.0_201/src.zip!/javax/annotation/Resource.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-beans/5.2.5.RELEASE/spring-beans-5.2.5.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Qualifier.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/dao/impl/impl/UserDaoImpl2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext03.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shine/TestUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/work/workSpace/Java/jdk1.8.0_201/src.zip!/javax/annotation/PostConstruct.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScans.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/context/annotation/ComponentScan.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/dao/impl/impl/StuDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/dao/impl/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/context/annotation/PropertySources.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/context/annotation/PropertySource.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../maven/myrepository/org/springframework/spring-context/5.2.5.RELEASE/spring-context-5.2.5.RELEASE-sources.jar!/org/springframework/context/annotation/Import.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/proxystatic/ZuFang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/proxystatic/FangDong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/proxystatic/ZhongJie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shine/TestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/shine/TestStaticProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/config/SpringConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/config/SourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/shine/config/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

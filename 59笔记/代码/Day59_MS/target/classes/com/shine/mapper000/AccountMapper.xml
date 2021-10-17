@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shine.mapper.AccountMapper">
+    <!--  Account findByUsername(String username);  -->
+    <select id="findByUsername" resultType="com.shine.entity.Account">
+        select * from account where username = #{username}
+    </select>
+
+    <!--  Integer updateAccount(Account account);  -->
+    <update id="updateAccount" parameterType="com.shine.entity.Account">
+        update account set balance=#{balance} where username=#{username}
+    </update>
+</mapper>

@@ -1,0 +1,66 @@
+2021-07-08 11:29:42,335 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb
+2021-07-08 11:29:42,599 DEBUG XmlBeanDefinitionReader:391 - Loaded 5 bean definitions from class path resource [applicationContext.xml]
+2021-07-08 11:29:42,669 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-07-08 11:29:42,767 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userService'
+2021-07-08 11:29:42,782 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2021-07-08 11:29:43,015 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'transactionAdvice'
+2021-07-08 11:30:18,236 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb
+2021-07-08 11:30:18,423 DEBUG XmlBeanDefinitionReader:391 - Loaded 5 bean definitions from class path resource [applicationContext.xml]
+2021-07-08 11:30:18,459 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-07-08 11:30:18,523 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userService'
+2021-07-08 11:30:18,538 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2021-07-08 11:30:18,774 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'transactionAdvice'
+2021-07-08 11:31:41,012 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb
+2021-07-08 11:31:41,200 DEBUG XmlBeanDefinitionReader:391 - Loaded 8 bean definitions from class path resource [applicationContext.xml]
+2021-07-08 11:31:41,235 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-07-08 11:31:41,298 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userService'
+2021-07-08 11:31:41,307 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2021-07-08 11:31:41,421 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2021-07-08 11:31:41,429 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2021-07-08 11:31:41,439 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2021-07-08 11:31:41,562 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'transactionAdvice'
+2021-07-08 11:35:42,745 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb
+2021-07-08 11:35:42,926 DEBUG XmlBeanDefinitionReader:391 - Loaded 8 bean definitions from class path resource [applicationContext.xml]
+2021-07-08 11:35:42,956 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-07-08 11:35:43,010 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userService'
+2021-07-08 11:35:43,011 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2021-07-08 11:35:43,124 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2021-07-08 11:35:43,131 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2021-07-08 11:35:43,140 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2021-07-08 11:35:43,176 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'transactionAdvice'
+2021-07-08 11:35:59,226 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb
+2021-07-08 11:35:59,416 DEBUG XmlBeanDefinitionReader:391 - Loaded 8 bean definitions from class path resource [applicationContext.xml]
+2021-07-08 11:35:59,451 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-07-08 11:35:59,511 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userService'
+2021-07-08 11:35:59,521 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2021-07-08 11:35:59,679 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2021-07-08 11:35:59,687 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2021-07-08 11:35:59,698 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2021-07-08 11:35:59,850 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'transactionAdvice'
+2021-07-08 11:39:36,311 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb
+2021-07-08 11:39:36,497 DEBUG XmlBeanDefinitionReader:391 - Loaded 8 bean definitions from class path resource [applicationContext.xml]
+2021-07-08 11:39:36,528 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-07-08 11:39:36,603 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userService'
+2021-07-08 11:39:36,614 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2021-07-08 11:39:36,736 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2021-07-08 11:39:36,740 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2021-07-08 11:39:36,747 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2021-07-08 11:39:36,873 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'transactionAdvice'
+2021-07-08 11:40:46,837 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb
+2021-07-08 11:40:47,024 DEBUG XmlBeanDefinitionReader:391 - Loaded 8 bean definitions from class path resource [applicationContext.xml]
+2021-07-08 11:40:47,051 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-07-08 11:40:47,124 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userService'
+2021-07-08 11:40:47,133 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2021-07-08 11:40:47,248 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2021-07-08 11:40:47,258 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2021-07-08 11:40:47,266 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2021-07-08 11:40:47,471 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'transactionAdvice'
+2021-07-08 11:43:47,303 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb
+2021-07-08 11:43:47,507 DEBUG XmlBeanDefinitionReader:391 - Loaded 8 bean definitions from class path resource [applicationContext.xml]
+2021-07-08 11:43:47,534 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-07-08 11:43:47,609 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userService'
+2021-07-08 11:43:47,623 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2021-07-08 11:43:47,793 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2021-07-08 11:43:47,800 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2021-07-08 11:43:47,807 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2021-07-08 11:43:47,935 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'transactionAdvice'

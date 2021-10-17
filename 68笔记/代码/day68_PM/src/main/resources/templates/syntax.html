@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Thymeleaf语法</title>
+    </head>
+    <body>
+        <!--  相当于if...else  -->
+        <p th:if="${age>=18}">起航网吧欢迎您</p>
+        <p th:unless="${age>=18}">未成年禁止进入</p>
+
+        <hr>
+
+        <p th:if="${age<18}">未成年禁止进入</p>
+        <p th:unless="${age<18}">起航网吧欢迎您</p>
+
+        <hr>
+
+        <p th:text="${age>=18 ? '起航网吧欢迎您00':'未成年禁止进入00'}"></p>
+
+        <hr>
+
+        <div th:switch="${day}">
+            <p th:case="1">今天是星期一,学习java01</p>
+            <p th:case="2">今天是星期二,学习java02</p>
+            <p th:case="3">今天是星期三,学习java03</p>
+            <p th:case="4">今天是星期四,学习java04</p>
+            <p th:case="5">今天是星期五,学习java05</p>
+            <p th:case="6">今天是星期六,学习java06</p>
+            <p th:case="7">今天是星期日,学习java07</p>
+        </div>
+
+        <table border="1px">
+            <tr>
+                <th>id</th>
+                <th>姓名</th>
+                <th>性别</th>
+                <th>年龄</th>
+                <th>地址</th>
+                <th>信息</th>
+            </tr>
+
+            <tr th:each="hero:${heroes}">
+                <td th:text="${hero.id}">id</td>
+                <td th:text="${hero.username}">id</td>
+                <td th:text="${hero.gender}">id</td>
+                <td th:text="${hero.age}">age</td>
+                <td th:text="${hero.addr}">id</td>
+                <td th:text="${hero.info}">id</td>
+                <td>
+                    <a href="#">修改</a>
+                    <a href="#">删除</a>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

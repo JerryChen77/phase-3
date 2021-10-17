@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shine.mapper.HeroMapper">
+    <!--  Integer insertHero(Hero hero);  -->
+    <insert id="insertHero" parameterType="com.shine.entity.Hero">
+        insert into hero()
+    </insert>
+
+    <!--  Integer selectHero(Hero hero);  -->
+    <select id="selectHero" parameterType="com.shine.entity.Hero" resultType="com.shine.entity.Hero">
+        select * from hero
+        <where>
+            <if test="id != null">
+                and id=#{id}
+            </if>
+
+            <if test="username != null">
+                and username=#{username}
+            </if>
+
+            <if test="age != null">
+                and age=#{age}
+            </if>
+
+            <if test="addr != null">
+                and addr like #{addr}
+            </if>
+
+            <if test="info != null">
+                and info like #{info}
+            </if>
+        </where>
+
+    </select>
+
+
+</mapper>

@@ -1,0 +1,201 @@
+2021-07-08 15:22:35,438 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb
+2021-07-08 15:22:35,812 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\LoggerAdvice.class]
+2021-07-08 15:22:35,820 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\TransactionAdvice.class]
+2021-07-08 15:22:35,820 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\entity\User.class]
+2021-07-08 15:22:35,835 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-08 15:22:35,904 DEBUG XmlBeanDefinitionReader:391 - Loaded 16 bean definitions from class path resource [applicationContext.xml]
+2021-07-08 15:22:35,928 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-08 15:22:35,988 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-08 15:22:35,992 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-08 15:22:35,995 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-08 15:22:35,997 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-08 15:22:36,006 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-07-08 15:22:36,096 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'loggerAdvice'
+2021-07-08 15:22:36,098 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2021-07-08 15:22:36,291 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2021-07-08 15:22:36,302 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+2021-07-08 15:22:36,312 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#3'
+2021-07-08 15:22:36,319 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#4'
+2021-07-08 15:22:36,330 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'transactionAdvice'
+2021-07-08 15:22:36,331 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-08 15:22:36,335 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-08 15:22:36,396  INFO LoggerAdvice:17 - 方法开始执行,,,,[10]
+2021-07-08 15:27:43,033 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb
+2021-07-08 15:27:43,281 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\LoggerAdvice.class]
+2021-07-08 15:27:43,296 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\TransactionAdvice.class]
+2021-07-08 15:27:43,298 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\entity\User.class]
+2021-07-08 15:27:43,305 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-08 15:27:43,346 DEBUG XmlBeanDefinitionReader:391 - Loaded 12 bean definitions from class path resource [applicationContext.xml]
+2021-07-08 15:27:43,381 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-08 15:27:43,425 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-08 15:27:43,427 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-08 15:27:43,428 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-08 15:27:43,430 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-08 15:27:43,435 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-07-08 15:27:43,514 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'loggerAdvice'
+2021-07-08 15:27:43,516 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2021-07-08 15:27:43,729 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.begin(org.aspectj.lang.JoinPoint)
+2021-07-08 15:27:43,730 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.release()
+2021-07-08 15:27:43,733 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.commit(java.lang.Object)
+2021-07-08 15:27:43,737 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.rollback(java.lang.Exception)
+2021-07-08 15:27:43,741 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'transactionAdvice'
+2021-07-08 15:27:43,742 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-08 15:27:43,761 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-08 15:27:43,806  INFO LoggerAdvice:17 - 方法开始执行,,,,[10]
+2021-07-08 15:28:14,345 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb
+2021-07-08 15:28:14,599 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\LoggerAdvice.class]
+2021-07-08 15:28:14,602 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\TransactionAdvice.class]
+2021-07-08 15:28:14,603 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\entity\User.class]
+2021-07-08 15:28:14,609 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-08 15:28:14,645 DEBUG XmlBeanDefinitionReader:391 - Loaded 12 bean definitions from class path resource [applicationContext.xml]
+2021-07-08 15:28:14,678 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-08 15:28:14,720 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-08 15:28:14,722 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-08 15:28:14,723 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-08 15:28:14,725 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-08 15:28:14,728 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-07-08 15:28:14,796 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'loggerAdvice'
+2021-07-08 15:28:14,797 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2021-07-08 15:28:15,005 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.begin(org.aspectj.lang.JoinPoint)
+2021-07-08 15:28:15,006 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.release()
+2021-07-08 15:28:15,009 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.commit(java.lang.Object)
+2021-07-08 15:28:15,013 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.rollback(java.lang.Exception)
+2021-07-08 15:28:15,019 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'transactionAdvice'
+2021-07-08 15:28:15,020 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-08 15:28:15,042 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-08 15:28:15,106  INFO LoggerAdvice:17 - 方法开始执行,,,,[10]
+2021-07-08 15:29:16,504 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb
+2021-07-08 15:29:16,746 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\LoggerAdvice.class]
+2021-07-08 15:29:16,748 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\TransactionAdvice.class]
+2021-07-08 15:29:16,749 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\entity\User.class]
+2021-07-08 15:29:16,759 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-08 15:29:16,797 DEBUG XmlBeanDefinitionReader:391 - Loaded 11 bean definitions from class path resource [applicationContext.xml]
+2021-07-08 15:29:16,818 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-08 15:29:16,869 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-08 15:29:16,871 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-08 15:29:16,873 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-08 15:29:16,874 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-08 15:29:16,881 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-07-08 15:29:16,946 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'loggerAdvice'
+2021-07-08 15:29:16,956 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'transactionAdvice'
+2021-07-08 15:29:16,965 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-08 15:29:17,000 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.LoggerAdvice.beforeLog(org.aspectj.lang.JoinPoint)
+2021-07-08 15:29:17,021 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.begin(org.aspectj.lang.JoinPoint)
+2021-07-08 15:29:17,022 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.release()
+2021-07-08 15:29:17,024 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.commit(java.lang.Object)
+2021-07-08 15:29:17,038 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.rollback(java.lang.Exception)
+2021-07-08 15:29:17,188 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-08 15:29:17,241  INFO LoggerAdvice:25 - 方法开始执行,,,,[10]
+2021-07-08 15:29:44,592 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb
+2021-07-08 15:29:44,827 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\LoggerAdvice.class]
+2021-07-08 15:29:44,829 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\TransactionAdvice.class]
+2021-07-08 15:29:44,831 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\entity\User.class]
+2021-07-08 15:29:44,837 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-08 15:29:44,875 DEBUG XmlBeanDefinitionReader:391 - Loaded 10 bean definitions from class path resource [applicationContext.xml]
+2021-07-08 15:29:44,902 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-08 15:29:44,935 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-08 15:29:44,936 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-08 15:29:44,938 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-08 15:29:44,939 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-08 15:29:44,942 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-07-08 15:29:45,026 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'loggerAdvice'
+2021-07-08 15:29:45,033 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'transactionAdvice'
+2021-07-08 15:29:45,040 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-08 15:29:45,073 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.LoggerAdvice.beforeLog(org.aspectj.lang.JoinPoint)
+2021-07-08 15:29:45,083 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.begin(org.aspectj.lang.JoinPoint)
+2021-07-08 15:29:45,085 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.release()
+2021-07-08 15:29:45,086 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.commit(java.lang.Object)
+2021-07-08 15:29:45,099 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.rollback(java.lang.Exception)
+2021-07-08 15:29:45,206 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-08 15:29:45,243  INFO LoggerAdvice:25 - 方法开始执行,,,,[10]
+2021-07-08 15:29:57,739 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb
+2021-07-08 15:29:57,977 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\LoggerAdvice.class]
+2021-07-08 15:29:57,980 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\TransactionAdvice.class]
+2021-07-08 15:29:57,981 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\entity\User.class]
+2021-07-08 15:29:57,990 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-08 15:29:58,016 DEBUG XmlBeanDefinitionReader:391 - Loaded 9 bean definitions from class path resource [applicationContext.xml]
+2021-07-08 15:29:58,038 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-08 15:29:58,090 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-08 15:29:58,092 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-08 15:29:58,093 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-08 15:29:58,094 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-08 15:29:58,102 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'loggerAdvice'
+2021-07-08 15:29:58,111 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'transactionAdvice'
+2021-07-08 15:29:58,115 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user'
+2021-07-08 15:29:58,116 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-08 15:32:22,167 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1fbc7afb
+2021-07-08 15:32:22,335 DEBUG XmlBeanDefinitionReader:391 - Loaded 1 bean definitions from class path resource [applicationContext.xml]
+2021-07-08 15:32:22,351 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-07-08 15:32:54,491 DEBUG AnnotationConfigApplicationContext:595 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@71c7db30
+2021-07-08 15:32:54,515 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-08 15:32:54,604 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\LoggerAdvice.class]
+2021-07-08 15:32:54,607 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\TransactionAdvice.class]
+2021-07-08 15:32:54,618 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-08 15:32:54,706 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-08 15:32:54,708 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-08 15:32:54,710 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-08 15:32:54,712 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-08 15:32:54,720 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'springConfig'
+2021-07-08 15:32:54,726 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'loggerAdvice'
+2021-07-08 15:32:54,729 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'transactionAdvice'
+2021-07-08 15:32:54,734 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-08 15:33:39,920 DEBUG AnnotationConfigApplicationContext:595 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@71c7db30
+2021-07-08 15:33:39,937 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-08 15:33:40,015 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\LoggerAdvice.class]
+2021-07-08 15:33:40,017 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\TransactionAdvice.class]
+2021-07-08 15:33:40,027 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-08 15:33:40,119 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-08 15:33:40,121 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-08 15:33:40,122 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-08 15:33:40,124 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-08 15:33:40,128 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-07-08 15:33:40,201 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'springConfig'
+2021-07-08 15:33:40,226 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.LoggerAdvice.beforeLog(org.aspectj.lang.JoinPoint)
+2021-07-08 15:33:40,237 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.begin(org.aspectj.lang.JoinPoint)
+2021-07-08 15:33:40,238 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.release()
+2021-07-08 15:33:40,239 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.commit(java.lang.Object)
+2021-07-08 15:33:40,249 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.rollback(java.lang.Exception)
+2021-07-08 15:33:40,362 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'loggerAdvice'
+2021-07-08 15:33:40,364 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'transactionAdvice'
+2021-07-08 15:33:40,365 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-08 15:33:40,409  INFO LoggerAdvice:25 - 方法开始执行,,,,[10]
+2021-07-08 15:34:42,347 DEBUG AnnotationConfigApplicationContext:595 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@71c7db30
+2021-07-08 15:34:42,377 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-08 15:34:42,471 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\LoggerAdvice.class]
+2021-07-08 15:34:42,476 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\TransactionAdvice.class]
+2021-07-08 15:34:42,490 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-08 15:34:42,585 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-08 15:34:42,587 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-08 15:34:42,589 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-08 15:34:42,591 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-08 15:34:42,596 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-07-08 15:34:42,664 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'springConfig'
+2021-07-08 15:34:42,693 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.LoggerAdvice.beforeLog(org.aspectj.lang.JoinPoint)
+2021-07-08 15:34:42,706 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.begin(org.aspectj.lang.JoinPoint)
+2021-07-08 15:34:42,707 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.release()
+2021-07-08 15:34:42,707 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.commit(java.lang.Object)
+2021-07-08 15:34:42,716 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.rollback(java.lang.Exception)
+2021-07-08 15:34:42,818 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'loggerAdvice'
+2021-07-08 15:34:42,819 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'transactionAdvice'
+2021-07-08 15:34:42,819 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-08 15:34:42,874  INFO LoggerAdvice:27 - 方法开始执行,,,,[10]
+2021-07-08 15:35:02,620 DEBUG AnnotationConfigApplicationContext:595 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@71c7db30
+2021-07-08 15:35:02,636 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-08 15:35:02,696 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\LoggerAdvice.class]
+2021-07-08 15:35:02,705 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\advice\TransactionAdvice.class]
+2021-07-08 15:35:02,715 DEBUG ClassPathBeanDefinitionScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_Anno\target\classes\com\shine\service\impl\UserServiceImpl.class]
+2021-07-08 15:35:02,790 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-08 15:35:02,792 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-08 15:35:02,793 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-08 15:35:02,795 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-08 15:35:02,799 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2021-07-08 15:35:02,874 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'springConfig'
+2021-07-08 15:35:02,903 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.LoggerAdvice.beforeLog(org.aspectj.lang.JoinPoint)
+2021-07-08 15:35:02,915 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.begin(org.aspectj.lang.JoinPoint)
+2021-07-08 15:35:02,917 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.release()
+2021-07-08 15:35:02,918 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.commit(java.lang.Object)
+2021-07-08 15:35:02,928 DEBUG ReflectiveAspectJAdvisorFactory:245 - Found AspectJ method: public void com.shine.advice.TransactionAdvice.rollback(java.lang.Exception)
+2021-07-08 15:35:03,047 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'loggerAdvice'
+2021-07-08 15:35:03,048 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'transactionAdvice'
+2021-07-08 15:35:03,049 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userServiceImpl'
+2021-07-08 15:35:03,107  INFO LoggerAdvice:27 - 方法开始执行,,,,[10]

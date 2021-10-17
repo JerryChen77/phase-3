@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    头标记
+        表示本标签中能书写哪些内容
+        需要遵守什么规范
+        此处遵循dtd
+-->
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--
+    mapper  映射器
+        namespace   被映射的XxxDao的全类名
+            select  执行的SQL语句的类型
+                id  XxxDao中抽象方法的名字
+                resultType  XXXDao中抽象方法的返回值类型，需要些全类型
+                parameterType 方法的参数类型
+                  select * from user where id = #{id}   XxxDao抽象方法实现时候执行的SQL语句
+-->
+<mapper namespace="com.shine.dao.UserDao">
+
+    <!--  User findById(int id);  -->
+    <select id="findById" resultType="com.shine.entity.User" >
+        select * from user where id = #{id}
+    </select>
+
+    <!--  int insertUser(User user);  -->
+    <insert id="insertUser" parameterType="com.shine.entity.User">
+        insert into user(username,password) values (#{username},#{password})
+    </insert>
+
+    <!--  User findUserByNameAndPwd1(String username,String password);  -->
+    <select id="findUserByNameAndPwd1" resultType="com.shine.entity.User">
+        select * from user where username=#{param1} and password=#{param2}
+    </select>
+
+    <!--  User findUserByNameAndPwd2(String username,String password);  -->
+    <select id="findUserByNameAndPwd2" resultType="com.shine.entity.User">
+        select * from user where username=#{arg0} and password=#{arg1}
+    </select>
+
+    <!--  User findUserByNameAndPwd3(@Param("username") String username,@Param("password") String password);  -->
+    <select id="findUserByNameAndPwd3" resultType="com.shine.entity.User">
+        select * from user where username=#{username} and password=#{password}
+    </select>
+
+    <!--  User findUserByNameAndPwd4(Map map);  -->
+    <select id="findUserByNameAndPwd4" resultType="com.shine.entity.User" parameterType="java.util.Map">
+        select * from user where username=#{username} and password=#{password}
+    </select>
+</mapper>

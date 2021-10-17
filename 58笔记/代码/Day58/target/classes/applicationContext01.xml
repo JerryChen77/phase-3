@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student" class="com.shine.entity.Student">
+        <property name="names">
+            <array>
+                <value>周树人</value>
+                <value>鲁迅</value>
+            </array>
+        </property>
+
+        <property name="hobby">
+            <set>
+                <value>抽烟</value>
+                <value>喝酒</value>
+                <value>烫头</value>
+            </set>
+        </property>
+
+        <property name="subjects">
+            <list>
+                <value>医学</value>
+                <value>文学</value>
+            </list>
+        </property>
+
+        <property name="friends">
+            <props>
+                <prop key="f01">闰土</prop>
+                <prop key="f02">猹</prop>
+                <prop key="f03">豆腐西施</prop>
+            </props>
+        </property>
+
+        <property name="phones">
+            <map>
+                <entry key="报警" value="110"></entry>
+                <entry key="火警" value="119"></entry>
+                <entry key="急救" value="120"></entry>
+                <entry key="道路救援">
+                    <value>122</value>
+                </entry>
+            </map>
+        </property>
+    </bean>
+
+</beans>

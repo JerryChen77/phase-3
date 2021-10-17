@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <p>
+            Hello templates Index
+        </p>
+        <p>Spring boot集成 Thymeleaf<span th:text="${username}"></span></p>
+
+        <hr>
+
+        <!--    获取整个对象    -->
+        <p th:object="${hero}">hero000</p>
+        <p th:text="${hero}">hero000</p>
+
+        <hr>
+
+        <!--    获取对象的属性
+        <p th:text="${hero.id}">id</p>
+        <p th:text="${hero.username}">id</p>
+        <p th:text="${hero.addr}">id</p>
+        <p th:text="${hero.info}">id</p>-->
+
+        <hr>
+
+        <p th:text="${heroes}">heroes</p>
+
+        <hr>
+
+        <table border="1px">
+            <tr th:each="hero:${heroes}">
+                <td th:text="${hero.id}">id</td>
+                <td th:text="${hero.username}">id</td>
+                <td th:text="${hero.gender}">id</td>
+                <td th:text="${hero.age}">id</td>
+                <td th:text="${hero.addr}">id</td>
+                <td th:text="${hero.info}">id</td>
+                <td>
+                    <a href="#" th:id="${hero.id}">修改</a>
+                    <a href="#" th:id="${hero.id}">删除</a>
+                </td>
+            </tr>
+        </table>
+
+    </body>
+</html>

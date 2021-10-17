@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE mapper
+                PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+                "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shine.mapper.UserMapper">
+    <cache />
+    <!-- User selectUser(Integer id); -->
+    <select id="selectUser" resultType="com.shine.entity.User">
+        select * from user where id = #{id}
+    </select>
+
+    <!--  Integer insertUser(User user);  -->
+    <insert id="insertUser" parameterType="com.shine.entity.User">
+        insert into user(username,password) values(#{username},#{password})
+    </insert>
+
+    <!--  Integer deleteUser(Integer id);  -->
+    <delete id="deleteUser">
+        delete from user where id=#{id}
+    </delete>
+
+    <!-- User selectUser2(Integer id); -->
+    <select id="selectUser2" resultType="com.shine.entity.User">
+        select id,username,password,register_time as registerTime from user where id = #{id}
+    </select>
+
+    <!-- User selectUser3(Integer id); -->
+    <select id="selectUser3" resultType="com.shine.entity.User">
+        select <include refid="UserSql"></include> from user where id = #{id}
+    </select>
+
+    <sql id="UserSql">id,username,password,register_time as registerTime</sql>
+
+</mapper>

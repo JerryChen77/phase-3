@@ -1,0 +1,23 @@
+# spring配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/java2103?serverTimezone=UTC
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+
+  # 配置视图解析器的前缀和后缀
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+# Mybatis配置
+mybatis:
+  mapper-locations: classpath*:com/shine/dao/*.xml
+
+# 日志配置:
+logging:
+  level:
+    com.shine: debug
+

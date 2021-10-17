@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!-- 配置bean -->
+    <bean id="user" class="com.shine.entity.User" init-method="init" destroy-method="destroy">
+        <property name="id" value="10010"></property>
+    </bean>
+    <bean class="com.shine.processor.MyBeanPostProcessor"></bean>
+
+    <!--  导入jdbc配置文件  -->
+    <context:property-placeholder location="classpath*:jdbc.properties"></context:property-placeholder>
+    <context:component-scan base-package="com.shine.service"></context:component-scan>
+
+    <!--  注入数据源  -->
+    <!--    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"></property>
+        <property name="url" value="${jdbc.url}"></property>
+        <property name="username" value="${jdbc.username}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+    </bean>
+
+    <!--  注入sqlSessionFactory  -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"></property>
+
+        <property name="plugins">
+            <array>
+                <bean class="com.github.pagehelper.PageInterceptor">
+                    <!-- 这里的几个配置主要演示如何使用，如果不理解，一定要去掉下面的配置 -->
+                    <property name="properties">
+                        <value>
+                            helperDialect=mysql
+                            reasonable=true
+                        </value>
+                    </property>
+                </bean>
+            </array>
+        </property>
+    </bean>
+
+    <!-- 1. 引入一个事务管理器，其中依赖DataSource,借以获得连接，进而控制事务逻辑 -->
+    <bean id="tx" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+
+    <tx:advice id="txAdvice" transaction-manager="tx">
+        <!--    配置需要设置事务的方法    -->
+        <tx:attributes>
+            <!--
+                事务相关设置
+                    timeout
+                        设置超时时间，默认是-1，无限期等待，可以设置数据
+                    rollback-for
+                        设定可以回滚的异常
+                    no-rollback-for
+                        设定不回滚的异常
+                    isolation
+                        事务的隔离级别
+                        mysql默认的是REPEATABLE_READ
+                    propagation
+                        事务的传播
+                        当出现Service之间有调用的时候使用
+                        确认当前的业务是否开启事务
+                        默认是开启的
+            -->
+            <!--      标记所有User结尾的方法      -->
+            <tx:method name="*User" timeout="-1" rollback-for="Exception" no-rollback-for="" isolation="DEFAULT" propagation="REQUIRED"/>
+            <!--      标记所有query开头的方法     -->
+            <tx:method name="query*" read-only="true" propagation="SUPPORTS"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <!--  切面  -->
+    <aop:config>
+        <!--    切点    -->
+        <aop:pointcut id="pt" expression="execution(public * com.shine.service.*.*.* (..))"/>
+        <!--    增强    -->
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="pt"></aop:advisor>
+    </aop:config>
+
+    <!--  扫描Mapper  -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.shine.dao"></property>
+    </bean>
+
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+
+</beans>
+

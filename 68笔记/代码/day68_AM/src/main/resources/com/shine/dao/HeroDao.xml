@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shine.dao.HeroDao">
+
+<!--
+        Integer insertHero(Hero hero);
+
+        Hero selectHeroById(Integer id);
+  -->
+
+    <select id="selectHeroById" resultType="com.shine.entity.Hero">
+        select * from hero where id = #{id}
+    </select>
+
+    <insert id="insertHero" parameterType="com.shine.entity.Hero">
+        insert into hero(username, gender, age, addr, info) values (#{username},#{gender},#{age},#{addr},#{info})
+    </insert>
+
+    <!--  List<Hero> selectHeroes(Integer id);  -->
+    <select id="selectHeroes" resultType="com.shine.entity.Hero">
+        select * from hero
+    </select>
+</mapper>

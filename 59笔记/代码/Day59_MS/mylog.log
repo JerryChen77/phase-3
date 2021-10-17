@@ -1,0 +1,200 @@
+2021-07-08 15:59:17,333 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-07-08 15:59:17,369 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-08 15:59:17,369 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-08 15:59:17,370 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-08 15:59:17,370 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-08 15:59:17,450 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2021-07-08 15:59:17,771 DEBUG PooledDataSource:424 - Created connection 1782148126.
+2021-07-08 15:59:17,772 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6a396c1e]
+2021-07-08 15:59:17,779 DEBUG findByUsername:143 - ==>  Preparing: select * from account where username = ? 
+2021-07-08 15:59:17,811 DEBUG findByUsername:143 - ==> Parameters: zhang(String)
+2021-07-08 15:59:17,832 DEBUG findByUsername:143 - <==      Total: 1
+2021-07-08 16:00:42,622 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-07-08 16:00:42,651 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-08 16:00:42,651 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-08 16:00:42,651 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-08 16:00:42,652 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-08 16:00:42,718 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2021-07-08 16:00:42,974 DEBUG PooledDataSource:424 - Created connection 326298949.
+2021-07-08 16:00:42,974 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1372ed45]
+2021-07-08 16:00:42,980 DEBUG updateAccount:143 - ==>  Preparing: update account set balance=? where username=? 
+2021-07-08 16:00:43,014 DEBUG updateAccount:143 - ==> Parameters: 15000(Integer), zhang(String)
+2021-07-08 16:00:43,017 DEBUG updateAccount:143 - <==    Updates: 1
+2021-07-08 16:01:14,009 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-07-08 16:01:14,030 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-08 16:01:14,030 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-08 16:01:14,031 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-08 16:01:14,031 DEBUG PooledDataSource:353 - PooledDataSource forcefully closed/removed all connections.
+2021-07-08 16:01:14,117 DEBUG JdbcTransaction:136 - Opening JDBC Connection
+2021-07-08 16:01:14,393 DEBUG PooledDataSource:424 - Created connection 326298949.
+2021-07-08 16:01:14,393 DEBUG JdbcTransaction:100 - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1372ed45]
+2021-07-08 16:01:14,398 DEBUG updateAccount:143 - ==>  Preparing: update account set balance=? where username=? 
+2021-07-08 16:01:14,427 DEBUG updateAccount:143 - ==> Parameters: 15000(Integer), zhang(String)
+2021-07-08 16:01:14,430 DEBUG updateAccount:143 - <==    Updates: 1
+2021-07-08 16:01:14,431 DEBUG JdbcTransaction:69 - Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1372ed45]
+2021-07-08 16:01:14,433 DEBUG JdbcTransaction:122 - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1372ed45]
+2021-07-08 16:01:14,434 DEBUG JdbcTransaction:90 - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1372ed45]
+2021-07-08 16:01:14,434 DEBUG PooledDataSource:381 - Returned connection 326298949 to pool.
+2021-07-08 16:12:39,372 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff4f00f
+2021-07-08 16:12:39,536 DEBUG XmlBeanDefinitionReader:391 - Loaded 4 bean definitions from class path resource [applicationContext-ms.xml]
+2021-07-08 16:12:39,584 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2021-07-08 16:12:39,677 DEBUG ClassPathMapperScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_MS\target\classes\com\shine\mapper\AccountMapper.class]
+2021-07-08 16:12:39,687 DEBUG ClassPathMapperScanner:180 - Creating MapperFactoryBean with name 'accountMapper' and 'com.shine.mapper.AccountMapper' mapperInterface
+2021-07-08 16:12:39,689 DEBUG ClassPathMapperScanner:216 - Enabling autowire by type for MapperFactoryBean with name 'accountMapper'.
+2021-07-08 16:12:39,697 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-08 16:12:39,712 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2021-07-08 16:12:39,724 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:12:39,725 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:12:39,725 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:12:39,725 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:12:39,727 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-08 16:12:39,728 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-08 16:12:39,729 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-08 16:12:39,730 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-08 16:12:39,741 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-08 16:12:39,811 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sqlSessionFactory'
+2021-07-08 16:12:39,818 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-07-08 16:12:39,830 DEBUG SqlSessionFactoryBean:410 - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2021-07-08 16:12:39,889 DEBUG SqlSessionFactoryBean:534 - Property 'mapperLocations' was not specified or no matching resources found
+2021-07-08 16:12:39,891 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'accountMapper'
+2021-07-08 16:12:40,106 DEBUG DataSourceUtils:114 - Fetching JDBC Connection from DataSource
+2021-07-08 16:12:40,291  INFO DruidDataSource:930 - {dataSource-1} inited
+2021-07-08 16:12:40,680 DEBUG SpringManagedTransaction:87 - JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a6d8329] will not be managed by Spring
+2021-07-08 16:12:40,689 DEBUG findByUsername:143 - ==>  Preparing: select * from account where username = ? 
+2021-07-08 16:12:40,725 DEBUG findByUsername:143 - ==> Parameters: zhang(String)
+2021-07-08 16:12:40,750 DEBUG findByUsername:143 - <==      Total: 1
+2021-07-08 16:13:57,443 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff4f00f
+2021-07-08 16:13:57,727 DEBUG XmlBeanDefinitionReader:391 - Loaded 4 bean definitions from class path resource [applicationContext-ms.xml]
+2021-07-08 16:13:57,780 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2021-07-08 16:13:57,860 DEBUG ClassPathMapperScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_MS\target\classes\com\shine\mapper\AccountMapper.class]
+2021-07-08 16:13:57,871 DEBUG ClassPathMapperScanner:180 - Creating MapperFactoryBean with name 'accountMapper' and 'com.shine.mapper.AccountMapper' mapperInterface
+2021-07-08 16:13:57,873 DEBUG ClassPathMapperScanner:216 - Enabling autowire by type for MapperFactoryBean with name 'accountMapper'.
+2021-07-08 16:13:57,881 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-08 16:13:57,895 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2021-07-08 16:13:57,906 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:13:57,907 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:13:57,907 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:13:57,907 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:13:57,908 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-08 16:13:57,910 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-08 16:13:57,911 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-08 16:13:57,912 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-08 16:13:57,920 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-08 16:13:58,086  INFO DruidDataSource:930 - {dataSource-1} inited
+2021-07-08 16:13:58,087 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sqlSessionFactory'
+2021-07-08 16:13:58,097 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-07-08 16:13:58,109 DEBUG SqlSessionFactoryBean:410 - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2021-07-08 16:13:58,179 DEBUG SqlSessionFactoryBean:534 - Property 'mapperLocations' was not specified or no matching resources found
+2021-07-08 16:13:58,182 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'accountMapper'
+2021-07-08 16:13:58,383 DEBUG DataSourceUtils:114 - Fetching JDBC Connection from DataSource
+2021-07-08 16:13:58,689 DEBUG SpringManagedTransaction:87 - JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a6d8329] will not be managed by Spring
+2021-07-08 16:13:58,697 DEBUG findByUsername:143 - ==>  Preparing: select * from account where username = ? 
+2021-07-08 16:13:58,724 DEBUG findByUsername:143 - ==> Parameters: zhang(String)
+2021-07-08 16:13:58,743 DEBUG findByUsername:143 - <==      Total: 1
+2021-07-08 16:14:43,736 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff4f00f
+2021-07-08 16:14:43,914 DEBUG XmlBeanDefinitionReader:391 - Loaded 4 bean definitions from class path resource [applicationContext-ms.xml]
+2021-07-08 16:14:43,956 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2021-07-08 16:14:44,024 DEBUG ClassPathMapperScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_MS\target\classes\com\shine\mapper\AccountMapper.class]
+2021-07-08 16:14:44,034 DEBUG ClassPathMapperScanner:180 - Creating MapperFactoryBean with name 'accountMapper' and 'com.shine.mapper.AccountMapper' mapperInterface
+2021-07-08 16:14:44,036 DEBUG ClassPathMapperScanner:216 - Enabling autowire by type for MapperFactoryBean with name 'accountMapper'.
+2021-07-08 16:14:44,050 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-08 16:14:44,066 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2021-07-08 16:14:44,077 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:14:44,077 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:14:44,078 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:14:44,078 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:14:44,079 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-08 16:14:44,081 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-08 16:14:44,082 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-08 16:14:44,083 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-08 16:14:44,091 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-08 16:14:44,259  INFO DruidDataSource:930 - {dataSource-1} inited
+2021-07-08 16:14:44,260 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sqlSessionFactory'
+2021-07-08 16:14:44,274 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-07-08 16:14:44,281 DEBUG SqlSessionFactoryBean:410 - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2021-07-08 16:14:44,327 DEBUG SqlSessionFactoryBean:534 - Property 'mapperLocations' was not specified or no matching resources found
+2021-07-08 16:14:44,329 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'accountMapper'
+2021-07-08 16:14:44,559 DEBUG DataSourceUtils:114 - Fetching JDBC Connection from DataSource
+2021-07-08 16:14:44,858 DEBUG SpringManagedTransaction:87 - JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a6d8329] will not be managed by Spring
+2021-07-08 16:14:44,866 DEBUG findByUsername:143 - ==>  Preparing: select * from account where username = ? 
+2021-07-08 16:14:44,893 DEBUG findByUsername:143 - ==> Parameters: zhang(String)
+2021-07-08 16:14:44,908 DEBUG findByUsername:143 - <==      Total: 1
+2021-07-08 16:15:12,198 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff4f00f
+2021-07-08 16:15:12,383 DEBUG XmlBeanDefinitionReader:391 - Loaded 4 bean definitions from class path resource [applicationContext-ms.xml]
+2021-07-08 16:15:12,415 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2021-07-08 16:15:12,489 DEBUG ClassPathMapperScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_MS\target\classes\com\shine\mapper\AccountMapper.class]
+2021-07-08 16:15:12,501 DEBUG ClassPathMapperScanner:180 - Creating MapperFactoryBean with name 'accountMapper' and 'com.shine.mapper.AccountMapper' mapperInterface
+2021-07-08 16:15:12,502 DEBUG ClassPathMapperScanner:216 - Enabling autowire by type for MapperFactoryBean with name 'accountMapper'.
+2021-07-08 16:15:12,510 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-08 16:15:12,524 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2021-07-08 16:15:12,536 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:15:12,536 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:15:12,537 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:15:12,537 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:15:12,539 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-08 16:15:12,541 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-08 16:15:12,544 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-08 16:15:12,545 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-08 16:15:12,556 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-08 16:15:12,727  INFO DruidDataSource:930 - {dataSource-1} inited
+2021-07-08 16:15:12,728 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sqlSessionFactory'
+2021-07-08 16:15:12,744 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-07-08 16:15:12,760 DEBUG SqlSessionFactoryBean:410 - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2021-07-08 16:15:12,812 DEBUG SqlSessionFactoryBean:534 - Property 'mapperLocations' was not specified or no matching resources found
+2021-07-08 16:15:12,814 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'accountMapper'
+2021-07-08 16:15:13,056 DEBUG DataSourceUtils:114 - Fetching JDBC Connection from DataSource
+2021-07-08 16:15:13,371 DEBUG SpringManagedTransaction:87 - JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a6d8329] will not be managed by Spring
+2021-07-08 16:15:13,379 DEBUG findByUsername:143 - ==>  Preparing: select * from account where username = ? 
+2021-07-08 16:15:13,412 DEBUG findByUsername:143 - ==> Parameters: zhang(String)
+2021-07-08 16:15:13,427 DEBUG findByUsername:143 - <==      Total: 1
+2021-07-08 16:16:01,060 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff4f00f
+2021-07-08 16:16:01,261 DEBUG XmlBeanDefinitionReader:391 - Loaded 4 bean definitions from class path resource [applicationContext-ms.xml]
+2021-07-08 16:16:01,304 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2021-07-08 16:16:01,388 DEBUG ClassPathMapperScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_MS\target\classes\com\shine\mapper\AccountMapper.class]
+2021-07-08 16:16:01,399 DEBUG ClassPathMapperScanner:180 - Creating MapperFactoryBean with name 'accountMapper' and 'com.shine.mapper.AccountMapper' mapperInterface
+2021-07-08 16:16:01,400 DEBUG ClassPathMapperScanner:216 - Enabling autowire by type for MapperFactoryBean with name 'accountMapper'.
+2021-07-08 16:16:01,409 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-08 16:16:01,424 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2021-07-08 16:16:01,440 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:16:01,441 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:16:01,441 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:16:01,442 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:16:01,444 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-08 16:16:01,447 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-08 16:16:01,450 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-08 16:16:01,451 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-08 16:16:01,462 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-08 16:16:01,627  INFO DruidDataSource:930 - {dataSource-1} inited
+2021-07-08 16:16:01,628 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sqlSessionFactory'
+2021-07-08 16:16:01,646 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-07-08 16:16:01,660 DEBUG SqlSessionFactoryBean:410 - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2021-07-08 16:16:01,707 DEBUG SqlSessionFactoryBean:534 - Property 'mapperLocations' was not specified or no matching resources found
+2021-07-08 16:16:01,710 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'accountMapper'
+2021-07-08 16:16:01,897 DEBUG DataSourceUtils:114 - Fetching JDBC Connection from DataSource
+2021-07-08 16:16:02,192 DEBUG SpringManagedTransaction:87 - JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a6d8329] will not be managed by Spring
+2021-07-08 16:16:02,204 DEBUG findByUsername:143 - ==>  Preparing: select * from account where username = ? 
+2021-07-08 16:16:02,245 DEBUG findByUsername:143 - ==> Parameters: zhang(String)
+2021-07-08 16:16:02,265 DEBUG findByUsername:143 - <==      Total: 1
+2021-07-08 16:16:47,260 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ff4f00f
+2021-07-08 16:16:47,492 DEBUG XmlBeanDefinitionReader:391 - Loaded 4 bean definitions from class path resource [applicationContext-ms.xml]
+2021-07-08 16:16:47,573 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2021-07-08 16:16:47,680 DEBUG ClassPathMapperScanner:435 - Identified candidate component class: file [D:\work\code\Java2103\Day59_MS\target\classes\com\shine\mapper\AccountMapper.class]
+2021-07-08 16:16:47,691 DEBUG ClassPathMapperScanner:180 - Creating MapperFactoryBean with name 'accountMapper' and 'com.shine.mapper.AccountMapper' mapperInterface
+2021-07-08 16:16:47,693 DEBUG ClassPathMapperScanner:216 - Enabling autowire by type for MapperFactoryBean with name 'accountMapper'.
+2021-07-08 16:16:47,702 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2021-07-08 16:16:47,715 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2021-07-08 16:16:47,727 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.driver' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:16:47,728 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.url' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:16:47,728 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:16:47,728 DEBUG PropertySourcesPropertyResolver:115 - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2021-07-08 16:16:47,730 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2021-07-08 16:16:47,731 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2021-07-08 16:16:47,734 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2021-07-08 16:16:47,736 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2021-07-08 16:16:47,753 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'dataSource'
+2021-07-08 16:16:47,916  INFO DruidDataSource:930 - {dataSource-1} inited
+2021-07-08 16:16:47,917 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'sqlSessionFactory'
+2021-07-08 16:16:47,926 DEBUG LogFactory:105 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-07-08 16:16:47,934 DEBUG SqlSessionFactoryBean:410 - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2021-07-08 16:16:47,992 DEBUG SqlSessionFactoryBean:534 - Property 'mapperLocations' was not specified or no matching resources found
+2021-07-08 16:16:47,994 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'accountMapper'

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shine.mapper.HeroMapper">
+
+
+    <!--  Integer selectHero(Hero hero);  -->
+    <select id="selectHero" parameterType="com.shine.entity.Hero" resultType="com.shine.entity.Hero">
+        select * from hero
+        <where>
+            <if test="id != null">and id=#{id}</if>
+            <if test="username != null">and username=#{username}</if>
+            <if test="age != null">and age=#{age}</if>
+            <if test="addr != null">and addr like #{addr}</if>
+            <if test="info != null">and info like #{info}</if>
+        </where>
+
+    </select>
+
+    <!--  Integer insertHeroes(List<Hero> heroes);  -->
+    <insert id="insertHeroes" parameterType="com.shine.entity.Hero">
+        insert into hero(username,gender,age,addr,info) values
+
+        <foreach collection="heroes" item="hero" separator=",">
+            (#{hero.username},#{hero.gender},#{hero.age},#{hero.addr},#{hero.info})
+        </foreach>
+
+    </insert>
+
+    <!--  List<Hero> selectHeroesById(List<Integer> ids);  -->
+    <select id="selectHeroesById" parameterType="java.lang.Integer" resultType="com.shine.entity.Hero">
+    <!--
+        foreach     遍历集合
+        collection  被遍历的集合，名称可以是list、collection
+        item        集合中的元素
+        separator   多个元素之间的分隔符
+        open        前缀，拼接SQL开始的内容
+        close       后缀，拼接SQL结束的内容
+        index       索引
+    -->
+        select * from hero
+        <where>
+            <if test="list != null">
+                and id
+                <foreach collection="list" item="id" separator="," open="in (" close=")" >
+                    #{id}
+                </foreach>
+            </if>
+        </where>
+    </select>
+
+    <!--  Integer updateHero(Hero hero);  -->
+    <update id="updateHero" parameterType="com.shine.entity.Hero">
+        update hero
+            <set>
+                <if test="username != null and username.trim().length>0">username=#{username},</if>
+                <if test="gender != null and gender.trim().length>0">gender=#{gender},</if>
+                <if test="age != null">age=#{age},</if>
+                <if test="addr != null and addr.trim().length>0">addr=#{addr},</if>
+                <if test="info != null and info.trim().length>0">info=#{info}</if>
+            </set>
+        <where>
+            and id=#{id}
+        </where>
+    </update>
+
+    <!--  Integer updateHero2(Hero hero);  -->
+    <update id="updateHero2" parameterType="com.shine.entity.Hero">
+        update hero
+        <trim prefix="set" prefixOverrides="," suffixOverrides=",">
+            <if test="username != null and username.trim().length>0">username=#{username},</if>
+            <if test="gender != null and gender.trim().length>0">gender=#{gender},</if>
+            <if test="age != null">age=#{age},</if>
+            <if test="addr != null and addr.trim().length>0">addr=#{addr},</if>
+            <if test="info != null and info.trim().length>0">info=#{info}</if>
+        </trim>
+        <where>
+            and id=#{id}
+        </where>
+    </update>
+
+    <!--  Integer selectHero2(Hero hero);  -->
+    <select id="selectHero2" parameterType="com.shine.entity.Hero" resultType="com.shine.entity.Hero">
+        select * from hero
+        <trim prefix="where" prefixOverrides="and |or">
+            <if test="id != null">and id=#{id}</if>
+            <if test="username != null">and username=#{username}</if>
+            <if test="age != null">and age=#{age}</if>
+            <if test="addr != null">and addr like #{addr}</if>
+            <if test="info != null">and info like #{info}</if>
+        </trim>
+    </select>
+
+    <!--  List<Hero> selectHeroByOrder(User user);  -->
+    <select id="selectHeroByOrder" resultType="com.shine.entity.Hero" parameterType="com.shine.entity.Hero">
+        select * from hero
+        <where>
+            <choose>
+                <when test="id != null">and id=#{id}</when>
+                <when test="username != null">and username=#{username}</when>
+                <when test="gender != null">and gender=#{gender}</when>
+                <when test="age != null">and age=#{age}</when>
+                <when test="addr != null">and addr like #{addr}</when>
+                <when test="info != null">and info like #{info}</when>
+                <otherwise>and id=1</otherwise>
+            </choose>
+        </where>
+    </select>
+
+</mapper>

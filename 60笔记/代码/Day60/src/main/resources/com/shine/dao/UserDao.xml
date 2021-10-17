@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shine.dao.UserDao">
+    <!--  Account findByUsername(String username);  -->
+
+    <!--
+            Integer insertUser(User user);
+            Integer deleteUser(Integer id);
+            Integer updateUser(User user);
+            User selectUser(Integer id);
+            List<User> selectUsers();
+      -->
+    <insert id="insertUser" parameterType="com.shine.entity.User">
+        insert into user(username,password,register_time) values(#{username},#{password},#{registerTime})
+    </insert>
+
+    <delete id="deleteUser">
+        delete from user where id=#{id}
+    </delete>
+
+    <update id="updateUser" parameterType="com.shine.entity.User">
+        update user set username=#{username},password=#{password} where id=#{id};
+    </update>
+
+    <select id="selectUser" resultType="com.shine.entity.User">
+        select * from user where id = #{id}
+    </select>
+
+    <select id="selectUsers" resultType="com.shine.entity.User">
+        select * from user
+    </select>
+
+</mapper>

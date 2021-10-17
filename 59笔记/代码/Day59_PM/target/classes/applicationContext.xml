@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       https://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--  1、把实体对象注入  -->
+    <bean id="userService" class="com.shine.service.impl.UserServiceImpl"></bean>
+    <bean id="transactionAdvice" class="com.shine.advice.TransactionAdvice"></bean>
+    <bean id="loggerAdvice" class="com.shine.advice.LoggerAdvice"></bean>
+
+    <!--  2、配置事务通知  -->
+    <aop:config>
+        <!--
+                pointcut
+                    配置切点
+                    选取被添加功能的方法
+                expression
+                    选取方法的表达式
+                    可以使用通配符
+                    *
+                        某一位置的任意内容
+                    ..
+                       在参数列表中使用
+                       忽略类型和数量
+
+         -->
+        <aop:pointcut id="pt" expression="execution(public * com.shine.service.impl.UserServiceImpl.*(..))"/>
+
+        <!--    配置切面，标明引用内容的id    -->
+        <aop:aspect ref="transactionAdvice">
+            <!--
+                  aop:before
+                        方法执行前执行
+                  aop:after-returning
+                        方法返回结果的时候
+                  aop:throwing
+                        方法出现异常的时候
+                  aop:after
+                        方法彻底结束的时候
+                  method
+                        增强的内容
+                  pointcut-ref
+                        切入点
+            -->
+            <aop:before method="begin" pointcut-ref="pt"></aop:before>
+            <aop:after-returning method="commit" pointcut-ref="pt" returning="result"></aop:after-returning>
+            <aop:after-throwing method="rollback" pointcut-ref="pt" throwing="e"></aop:after-throwing>
+            <aop:after method="release" pointcut-ref="pt"></aop:after>
+
+<!--            <aop:around method="around" pointcut-ref="pt"></aop:around>-->
+
+        </aop:aspect>
+
+        <!--   配置日志切面     -->
+        <aop:aspect ref="loggerAdvice">
+            <aop:after-returning method="beforeLog" pointcut-ref="pt"></aop:after-returning>
+        </aop:aspect>
+
+    </aop:config>
+
+    <!--  使得aop设置生效  -->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+
+</beans>

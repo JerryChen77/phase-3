@@ -1,0 +1,33 @@
+#server:
+#  port: 8081
+
+#spring:
+#  profiles:
+#    active: bak
+
+name: zhangsan
+
+user:
+  id: 10010
+  username: lisisi
+  password: sisili
+
+user2:
+  id: 10012
+  username: wangwu
+  password: wuwang
+  names: [xiaowu,dawu,wuer]
+
+# User3对应的数据
+user3:
+  id: 10013
+  username: zhaoliu
+  password: liuzhao
+  names: [xiaoliu,xiaozhao]
+  hobby:
+    - swim
+    - basketball
+    - football
+  phones:
+    zhangsan: 10086
+    lisisi: 10010

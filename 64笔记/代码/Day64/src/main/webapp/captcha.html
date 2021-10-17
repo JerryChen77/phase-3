@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+    <form action="http://localhost:8080/Day64/checkCaptcha/check01" method="get">
+        <img id="capImg" src="http://localhost:8080/Day64/captcha" alt="" onclick="refresh()">
+        <br>
+        <input type="text" name="captcha">
+        <br>
+
+        <input type="submit" value="提交">
+    </form>
+    </body>
+</html>
+
+<script type="text/javascript">
+    function refresh() {
+        var capImg = document.getElementById("capImg");
+        capImg.src = "http://localhost:8080/Day64/captcha?" + new Date();
+    }
+</script>

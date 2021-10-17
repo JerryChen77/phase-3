@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    mybatis的核心配置文件
+    本质上时是一个configuration对象
+    遵循mybatis-3-config.dtd规则
+-->
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<!--
+    配置的根标签
+-->
+<configuration>
+
+<!--
+    环境s
+    default 默认使用的环境配置
+        environment     具体的子环境 id是环境的唯一标识
+        transactionManager  事务管理器 type是事务类型
+        dataSource      连接池 type是连接池类型
+        property    jdbc.properties文件中具体的属性
+-->
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/java2103"/>
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--  注册器-把XxxDao的映射文件注册  -->
+    <mappers>
+        <!--    注册映射文件    -->
+        <mapper resource="com/shine/dao/UserDao.xml"/>
+        <mapper resource="com/shine/dao/HeroDao.xml"/>
+        <mapper resource="com/shine/dao/HerosDao.xml"/>
+    </mappers>
+</configuration>

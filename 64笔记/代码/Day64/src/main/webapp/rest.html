@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+    </head>
+    <body>
+        <button onclick="getUsers()">查询所有</button>
+        <button onclick="putUsers()">修改用户</button>
+    </body>
+</html>
+
+<script type="text/javascript">
+    // 接送服务端发来的json数据
+    function getUsers() {
+        $.ajax({
+            type:"get",
+            url:"http://localhost:8080/Day64/rest/users",
+            contentType:"application/json",
+            success:function (ret) {
+                console.log(ret);
+            }
+        })
+    }
+    // 接送服务端发来的json数据
+    function putUsers() {
+        $.ajax({
+            type:"put",
+            url:"http://localhost:8080/Day64/rest/users",
+            contentType:"application/json",
+            success:function (ret) {
+                console.log(ret);
+            }
+        })
+    }
+</script>

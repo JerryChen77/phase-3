@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shine.dao.HerosDao">
+    <!--  int getHeroGenId03(Heros heros);  -->
+    <insert id="getHeroGenId03" parameterType="com.shine.entity.Heros">
+
+        <selectKey order="BEFORE" keyProperty="id" resultType="java.lang.String">
+            select REPLACE(UUID(),"-","")
+        </selectKey>
+
+        insert into t_hero(id,username,gender,age,addr,info) values(#{id},#{username},#{gender},#{age},#{addr},#{info})
+    </insert>
+</mapper>
